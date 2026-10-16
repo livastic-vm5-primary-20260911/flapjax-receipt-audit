@@ -1,0 +1,23 @@
+{
+  "chain": "BSC mainnet",
+  "rpc": "https://rpc-bsc.48.club",
+  "method": "eth_getLogs",
+  "token": "0x90c8889f428f9ebb77bb8f15cad3a50a9ac680df",
+  "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+  "to": "0xca93ec685b8623688e6b236f9068034b298c2150",
+  "filterTopics": [
+    "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+    "0x0000000000000000000000007c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "0x000000000000000000000000ca93ec685b8623688e6b236f9068034b298c2150"
+  ],
+  "scannedBlockStart": 126900000,
+  "scannedBlockEnd": 127500000,
+  "timeStartUTC": "2026-10-10T21:30:15.000Z",
+  "timeEndUTC": "2026-10-14T00:37:54.000Z",
+  "requiredWindowUTC": "2026-10-11T00:00:00Z to 2026-10-13T23:59:59Z",
+  "segments": 123,
+  "failedAttemptRetries": 0,
+  "completed": true,
+  "matchedTransferCount": 0,
+  "matchedTransfers": []
+}

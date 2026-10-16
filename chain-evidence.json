@@ -1,0 +1,72 @@
+{
+  "chain": "BSC",
+  "chainId": "0x38",
+  "token": "0x90c8889f428f9ebb77bb8f15cad3a50a9ac680df",
+  "pool": "0xca93ec685b8623688e6b236f9068034b298c2150",
+  "treasury": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+  "buys": [
+    {
+      "hash": "0x9afdc96e3ca876b5b617a26ba5105012ed8c33e805c77b1616bf48c198d5cbf1",
+      "blockNumber": 127261246,
+      "timestamp": "2026-10-12T18:46:27.000Z",
+      "txValueWei": "10000000000000000",
+      "txFrom": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "txTo": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+      "receiptStatus": 1,
+      "receiptLogCount": 4,
+      "received": [
+        {
+          "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+          "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+          "rawWei": "23834879521763892137228328",
+          "logIndex": 40
+        }
+      ],
+      "priceBefore": {
+        "blockNumber": 127261245,
+        "sqrtPriceX96": "1613473238700077591767816",
+        "tick": -216045,
+        "rpc": "https://bsc-mainnet.public.blastapi.io"
+      },
+      "priceAt": {
+        "blockNumber": 127261246,
+        "sqrtPriceX96": "1615919175229289091042512",
+        "tick": -216015,
+        "rpc": "https://bsc-mainnet.public.blastapi.io"
+      }
+    },
+    {
+      "hash": "0xc94de373d1fb00093431224a97475b3b2b48b9a4962d15acbe9d9c5c016d720c",
+      "blockNumber": 127452454,
+      "timestamp": "2026-10-13T18:41:15.000Z",
+      "txValueWei": "10000000000000000",
+      "txFrom": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "txTo": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+      "receiptStatus": 1,
+      "receiptLogCount": 4,
+      "received": [
+        {
+          "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+          "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+          "rawWei": "23762833230024087278551319",
+          "logIndex": 256
+        }
+      ],
+      "priceBefore": {
+        "blockNumber": 127452453,
+        "sqrtPriceX96": "1615919175229289091042512",
+        "tick": -216015,
+        "rpc": "https://bsc-mainnet.public.blastapi.io"
+      },
+      "priceAt": {
+        "blockNumber": 127452454,
+        "sqrtPriceX96": "1618365111758500590317208",
+        "tick": -215985,
+        "rpc": "https://bsc-mainnet.public.blastapi.io"
+      }
+    }
+  ],
+  "poolToken0": "0x90c8889f428f9ebb77bb8f15cad3a50a9ac680df",
+  "poolToken1": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+  "tokenDecimals": 18
+}

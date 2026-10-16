@@ -1,0 +1,41 @@
+{
+  "chain": "BSC",
+  "balances": [
+    {
+      "hash": "0x82d01172ae26f1c86287643e123af1675ca5c18b984b7740c1a0c1647d2801eb",
+      "blockNumber": 127067713,
+      "blockTimestamp": "2026-10-11T18:30:35.000Z",
+      "receiptStatus": 1,
+      "treasuryBnbWei": "144640083559380905",
+      "treasuryTokenWei": "237237297806810631976334347",
+      "poolTokenWei": "20227226345933039924319760206",
+      "swapValueWei": "10000000000000000",
+      "gasUsed": "127554",
+      "effectiveGasPriceWei": "50000000"
+    },
+    {
+      "hash": "0x9afdc96e3ca876b5b617a26ba5105012ed8c33e805c77b1616bf48c198d5cbf1",
+      "blockNumber": 127261246,
+      "blockTimestamp": "2026-10-12T18:46:27.000Z",
+      "receiptStatus": 1,
+      "treasuryBnbWei": "132607152559380905",
+      "treasuryTokenWei": "255542177328574524113562675",
+      "poolTokenWei": "20203391466411276032182531878",
+      "swapValueWei": "10000000000000000",
+      "gasUsed": "127528",
+      "effectiveGasPriceWei": "50000000"
+    },
+    {
+      "hash": "0xc94de373d1fb00093431224a97475b3b2b48b9a4962d15acbe9d9c5c016d720c",
+      "blockNumber": 127452454,
+      "blockTimestamp": "2026-10-13T18:41:15.000Z",
+      "receiptStatus": 1,
+      "treasuryBnbWei": "118264579546597688",
+      "treasuryTokenWei": "274255010558598611392113994",
+      "poolTokenWei": "20179628633181251944903980559",
+      "swapValueWei": "10000000000000000",
+      "gasUsed": "127526",
+      "effectiveGasPriceWei": "50000000"
+    }
+  ]
+}

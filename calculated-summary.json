@@ -1,0 +1,55 @@
+{
+  "chainId": "0x38",
+  "token": "0x90c8889f428f9ebb77bb8f15cad3a50a9ac680df",
+  "pool": "0xca93ec685b8623688e6b236f9068034b298c2150",
+  "treasury": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+  "buys": [
+    {
+      "date": "2026-10-12",
+      "transaction": "0x9afdc96e3ca876b5b617a26ba5105012ed8c33e805c77b1616bf48c198d5cbf1",
+      "block": 127261246,
+      "txValueBNB": "0.010000000000000000",
+      "transferFJ": "23834879.521763892137228328",
+      "logIndex": 40,
+      "recipient": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "slot0Pre": "1613473238700077591767816",
+      "slot0At": "1615919175229289091042512",
+      "tickPre": -216045,
+      "tickAt": -216015,
+      "priceBeforeWBNBperFJ": 4.147289627831641e-10,
+      "priceAfterWBNBperFJ": 4.1598732838011765e-10,
+      "impactPctWBNBperFJ": "0.30341878910721",
+      "treasuryBNB": "0.132607152559380905",
+      "treasuryFJ": "255542177.328574524113562675",
+      "gasOfBuyBNB": "0.000006376400000000",
+      "netOtherOutflowBNB": "0.002026554600000000"
+    },
+    {
+      "date": "2026-10-13",
+      "transaction": "0xc94de373d1fb00093431224a97475b3b2b48b9a4962d15acbe9d9c5c016d720c",
+      "block": 127452454,
+      "txValueBNB": "0.010000000000000000",
+      "transferFJ": "23762833.230024087278551319",
+      "logIndex": 256,
+      "recipient": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "slot0Pre": "1615919175229289091042512",
+      "slot0At": "1618365111758500590317208",
+      "tickPre": -216015,
+      "tickAt": -215985,
+      "priceBeforeWBNBperFJ": 4.1598732838011765e-10,
+      "priceAfterWBNBperFJ": 4.1724760014515887e-10,
+      "impactPctWBNBperFJ": "0.30295917184512",
+      "treasuryBNB": "0.118264579546597688",
+      "treasuryFJ": "274255010.558598611392113994",
+      "gasOfBuyBNB": "0.000006376300000000",
+      "netOtherOutflowBNB": "0.004336196712783217"
+    }
+  ],
+  "sellScan": {
+    "complete": true,
+    "startBlock": 126900000,
+    "endBlock": 127500000,
+    "segments": 123,
+    "matches": 0
+  }
+}
