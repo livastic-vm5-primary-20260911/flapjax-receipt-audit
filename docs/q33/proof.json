@@ -1,0 +1,1786 @@
+{
+  "sourceKind": "independent read-only VM5 chain-audited public task evidence, no claim/submission",
+  "auditedAtUTC": "2026-10-18T15:11:30.370800+00:00",
+  "taskId": "0x21ce4da5892dda87559f8c15ea6a4504deeeac510f73fd658efc63276754bd97",
+  "token": "0x90c8889f428f9ebb77bb8f15cad3a50a9ac680df",
+  "treasury": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+  "pool": "0xca93ec685b8623688e6b236f9068034b298c2150",
+  "publicSources": {
+    "sponsorLedger": "https://flapjax.surge.sh/",
+    "index": "https://api.gopluslabs.io/api/v1/token_security/56?contract_addresses=0x90c8889f428f9ebb77bb8f15cad3a50a9ac680df",
+    "publicChainJSONRPC": "https://bsc-dataseed.bnbchain.org"
+  },
+  "snapshot": {
+    "chainId": 56,
+    "blockNumber": 128383978,
+    "observedHeadAtRead": 128384042,
+    "confirmationsAtRead": 64,
+    "totalSupply": "44444444444"
+  },
+  "indexSnapshot": {
+    "readAfterUTC": "2026-10-18T15:11:27.228853+00:00",
+    "reporter": "GoPlus token_security BSC - NOT a complete historical event replay",
+    "holderCountReported": "181",
+    "holderCountAtExactPinnedBlockIndependentlyEnumerated": false,
+    "top10Count": 10
+  },
+  "topTenWithPinnedChainBalances": [
+    {
+      "indexRank": 1,
+      "address": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "indexBalance": "20408838312.51818400145712303",
+      "indexShareFraction": "0.459198862036251128",
+      "snapshotBalance": "20095159644.43251516904800895",
+      "snapshotSupplyPercent": "45.21410920042530022236227314",
+      "chainHasRuntimeContractCode": true,
+      "category": "AMM pool (DexScreener confirmed Pancake v3)"
+    },
+    {
+      "indexRank": 2,
+      "address": "0x740a3b4a91cb8fa47e85d7f9713ca6ec2f8a037e",
+      "indexBalance": "7024507600.019208248598948913",
+      "indexShareFraction": "0.158051421002012699",
+      "snapshotBalance": "5619844348.59899399876916397",
+      "snapshotSupplyPercent": "12.64464978447418299507536076",
+      "chainHasRuntimeContractCode": true,
+      "category": "smart contract, subtype not independently resolved"
+    },
+    {
+      "indexRank": 3,
+      "address": "0x58fab046ce77064bf52c2eff4e163eb84386b8b4",
+      "indexBalance": "2334009348.875",
+      "indexShareFraction": "0.052515210350212652",
+      "snapshotBalance": "2334009348.875",
+      "snapshotSupplyPercent": "5.251521035021265210350212652",
+      "chainHasRuntimeContractCode": false,
+      "category": "EOA/no runtime code"
+    },
+    {
+      "indexRank": 4,
+      "address": "0x000000000000000000000000000000000000dead",
+      "indexBalance": "1923471159.703770945293578174",
+      "indexShareFraction": "0.043278101093767627",
+      "snapshotBalance": "1923471159.703770945293578174",
+      "snapshotSupplyPercent": "4.327810109376762728004318519",
+      "chainHasRuntimeContractCode": false,
+      "category": "null/destroyed token sink (0xdead; not a wallet with a human controller)"
+    },
+    {
+      "indexRank": 5,
+      "address": "0x2ea90ff709b0fb5decd1de944f644eecdc26d33a",
+      "indexBalance": "1185621343.19894075159163011",
+      "indexShareFraction": "0.026676480222242931",
+      "snapshotBalance": "1175621343.19894075159163011",
+      "snapshotSupplyPercent": "2.645148022224068171303408429",
+      "chainHasRuntimeContractCode": false,
+      "category": "EOA/no runtime code"
+    },
+    {
+      "indexRank": 6,
+      "address": "0xf0e319587b54db351f4a20e2da09848fed4d8151",
+      "indexBalance": "621698620.153862035019976481",
+      "indexShareFraction": "0.013988218953601777",
+      "snapshotBalance": "621698620.153862035019976481",
+      "snapshotSupplyPercent": "1.398821895360177797748548860",
+      "chainHasRuntimeContractCode": false,
+      "category": "EOA/no runtime code"
+    },
+    {
+      "indexRank": 7,
+      "address": "0x5dedb37eaa9145dd1a17d385d8c5e256871d6f16",
+      "indexBalance": "611866236.479140970515983357",
+      "indexShareFraction": "0.013766990320918341",
+      "snapshotBalance": "611866236.479140970515983357",
+      "snapshotSupplyPercent": "1.376699032091834173981880895",
+      "chainHasRuntimeContractCode": false,
+      "category": "EOA/no runtime code"
+    },
+    {
+      "indexRank": 8,
+      "address": "0x9a937a531a3e4b7930a49548b64c4a3471d049e2",
+      "indexBalance": "610074149.236058951494657443",
+      "indexShareFraction": "0.013726668357948593",
+      "snapshotBalance": "610074149.236058951494657443",
+      "snapshotSupplyPercent": "1.372666835794859309220927840",
+      "chainHasRuntimeContractCode": false,
+      "category": "EOA/no runtime code"
+    },
+    {
+      "indexRank": 9,
+      "address": "0xdbf2bdecf7dff212880552398b42e0ab997523a7",
+      "indexBalance": "588854986.027098745",
+      "indexShareFraction": "0.013249237185742214",
+      "snapshotBalance": "588854986.027098745",
+      "snapshotSupplyPercent": "1.324923718574221413435742214",
+      "chainHasRuntimeContractCode": false,
+      "category": "EOA/no runtime code"
+    },
+    {
+      "indexRank": 10,
+      "address": "0x4492ca070a2caea1502fb807b389b62ab32eb0d3",
+      "indexBalance": "586603504.417275704449255607",
+      "indexShareFraction": "0.013198578849520689",
+      "snapshotBalance": "586603504.417275704449255607",
+      "snapshotSupplyPercent": "1.319857884952068913860345805",
+      "chainHasRuntimeContractCode": false,
+      "category": "EOA/no runtime code"
+    }
+  ],
+  "treasuryPinned": {
+    "balanceFLAPJAX": "277219882.640476933118181437",
+    "shareSupplyPercent": "0.6237447359473105468753813387"
+  },
+  "sponsorPayoutWindow": {
+    "start": "2026-10-12",
+    "end": "2026-10-17",
+    "scope": "sponsor public ledger rows with Q-number labels; not proved COMPLETE for all issued campaign transfers",
+    "originalPublicSponsorLedgerRows": 207,
+    "uniqueQSeriesTxsAttempted": 78,
+    "confirmedWithTreasuryFLAPJAXTransfers": 78,
+    "distinctRecipientsConfirmed": 37,
+    "walletsRetainAtLeastOwnNumericPayoutAtPinnedBlock": 35,
+    "walletsBelowOwnCumulativePayoutAtPinnedBlock": 2,
+    "retentionDefinition": "balance >= sum of that wallet's indexed FLAPJAX Q-series rewards. Fungible tokens cannot prove same original coins never moved.",
+    "entries": [
+      {
+        "day": 12,
+        "kind": "quick task Q06",
+        "tx": "0xdc2b35954374fc028058700f8feadb98d85b9c2b391c185bc5c2846be6f77f01",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 127220342,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x8c062dc5d775b7d5efc168f75a875f392f53dcdf",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 294
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 12,
+        "kind": "quick task Q18",
+        "tx": "0x25f0688f5eee0421e373dafe0d7c142d411df46f591b062f8a8ab2ff80160f78",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127220352,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x8c062dc5d775b7d5efc168f75a875f392f53dcdf",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 544
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 15,
+        "kind": "quick task Q21",
+        "tx": "0x5758c6b9da7084b931b25bb60a9fd2553cefd69f10a7dfc888a89f79148abd03",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127793184,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x8c062dc5d775b7d5efc168f75a875f392f53dcdf",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 359
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 15,
+        "kind": "quick task Q22",
+        "tx": "0xebb3eddb88e0c9569d651622089166f0b1ae4950db7a61baec94375924818d70",
+        "sponsorDeclaredAmountFLAPJAX": "100000",
+        "blockNumber": 127793194,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x8c062dc5d775b7d5efc168f75a875f392f53dcdf",
+            "rawAmount": 100000000000000000000000,
+            "amountFLAPJAX": "100000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 391
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "custom Q20",
+        "tx": "0xd244990b4e05d5c51c132408e1118e86f2ed2fe80a5131a32563a80ccd6bb2ea",
+        "sponsorDeclaredAmountFLAPJAX": "750000",
+        "blockNumber": 128081243,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x8c062dc5d775b7d5efc168f75a875f392f53dcdf",
+            "rawAmount": 750000000000000000000000,
+            "amountFLAPJAX": "750000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 320
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q23",
+        "tx": "0xec50e5eadc25ae14e19b2019d93456b3e1639c098906263f431d5d728bdd61f8",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128081256,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x8c062dc5d775b7d5efc168f75a875f392f53dcdf",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 306
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q25",
+        "tx": "0xcab62247069d848b3341d04c45ee7241e509b1c454da7796b5ebb7e835ea47de",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128225745,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x8c062dc5d775b7d5efc168f75a875f392f53dcdf",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 120
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 12,
+        "kind": "quick task Q18",
+        "tx": "0xbc92eaf19ab0c57ab6738532d998591146935ff8d14e3903cb7dae2743030b71",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127220507,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x5c7a79549e4413a52b1787b5c7e10368720d2358",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 3396
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 12,
+        "kind": "quick task Q21",
+        "tx": "0xc5cfcac79baa5725472d59c2605b11379ae91f4049071a4b5357f7b4a0b9e9e3",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127323048,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x5c7a79549e4413a52b1787b5c7e10368720d2358",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 337
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 12,
+        "kind": "quick task Q08",
+        "tx": "0x99f9709a02f73985710b681c605bc95595b1de91f4989b83f993928cc6e4b28d",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127220370,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x4a6419ee9666acaa6755fc0aebb27f48743c1e1e",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 369
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 12,
+        "kind": "quick task Q18",
+        "tx": "0x2b9e350db56f6aac54ad7bd44837fb1f3e3e0458e7af5b1d82c03bae48b8fc8a",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127220380,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x4a6419ee9666acaa6755fc0aebb27f48743c1e1e",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 227
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 12,
+        "kind": "quick task Q16",
+        "tx": "0x12677707569e24cfa728878b46ff4e895fb894da4b39d59f618ab55c9820cc4e",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 127220390,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x4a6419ee9666acaa6755fc0aebb27f48743c1e1e",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 384
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 13,
+        "kind": "quick task Q11",
+        "tx": "0xd0d3aa00a3bd8a80959f96acbc7c28fb8c18cb1964afa5616ab1b6aa8c5360d3",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127412508,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x4a6419ee9666acaa6755fc0aebb27f48743c1e1e",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 426
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 12,
+        "kind": "custom dail_Q21",
+        "tx": "0x54c634d4a4ddba5a218f93fbb499bd930a0373b64ff70b0cc4592023bbaf1d54",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127304633,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xb6c06eb1a3f1a1ef155a2b48ea6b4f84e9c128f7",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 288
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 13,
+        "kind": "quick task Q21",
+        "tx": "0x72c700f37d5ea37212407a4c36233db108c3b590c009b3b4db371903367d4137",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127412832,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x078293f144c61d1e02b49d4cd3f33c283eb7dc73",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 746
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 13,
+        "kind": "quick task Q17",
+        "tx": "0xe50a053ba822eb138248f0f5a8c791e14df21b57eef5c54993b011a79b4d3712",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 127412852,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x078293f144c61d1e02b49d4cd3f33c283eb7dc73",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 315
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 13,
+        "kind": "quick task Q21",
+        "tx": "0x8de4d7fadf2e3e1425aa87884768605ea6d4c05bc2363910f3d0e605d832b0f8",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127412809,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xcfa08d418f136cc2a14c791fcf7e37b30d237592",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 473
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 13,
+        "kind": "quick task Q08",
+        "tx": "0x7db3af68ebc249ef90803c3d0dd1b42fccb1f9487af281f4fb6aab0962b3f45e",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127412822,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x3d650013f46dd2d96b5afefe4acab7a7f2727561",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 182
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 13,
+        "kind": "quick task Q17",
+        "tx": "0x0a7c57859d00271a28d1708d2265b115b2ae80c1be6d508790a76fe179cdc3d9",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 127412841,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x3d650013f46dd2d96b5afefe4acab7a7f2727561",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 1630
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 13,
+        "kind": "quick task Q23",
+        "tx": "0x5153b00fbd17ff816e229f060817982d2f60f8b08a515054a9a8a01011e63283",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127473873,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x3d98800c64c345950e1eaaa076d88c12d1bf5f37",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 98
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 13,
+        "kind": "quick task Q24",
+        "tx": "0x36169810a9c9531b16c6fd46fedf73db407f84a1967605e599a447106a9152dd",
+        "sponsorDeclaredAmountFLAPJAX": "100000",
+        "blockNumber": 127473938,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x3d98800c64c345950e1eaaa076d88c12d1bf5f37",
+            "rawAmount": 100000000000000000000000,
+            "amountFLAPJAX": "100000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 210
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 13,
+        "kind": "quick task Q17",
+        "tx": "0xb9f81ef9219964220d8fcd543673c5663e9f5cf34247d1b7475bf8fdeec4d4f1",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 127482175,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x3d98800c64c345950e1eaaa076d88c12d1bf5f37",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 163
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 14,
+        "kind": "quick task Q11",
+        "tx": "0x3d58d6b5bd8a6b340ea11c59d9993e47d804de2e4f37e51b5f98f2e35cd4c5d2",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127603090,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x3d98800c64c345950e1eaaa076d88c12d1bf5f37",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 257
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 14,
+        "kind": "quick task Q08",
+        "tx": "0x31e520be97e8a69854baa4d6ac6f6c856b63fccfc11961b60b2c16e6def8aefa",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127603100,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x3d98800c64c345950e1eaaa076d88c12d1bf5f37",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 511
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 13,
+        "kind": "custom taskmarket_Q23",
+        "tx": "0x4c6341b4df75fc4227c59b6483351c831b9260091c5d2a6a0f9158535b2a6219",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127496894,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xfebeb3682f672d620e1ce2ffeb2743fde20f4778",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 188
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 13,
+        "kind": "custom taskmarket_Q23",
+        "tx": "0x2e74c8171839ab943a7dc3274375408bfa4f58499606f8710021e29fdbd86c28",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127496904,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xd07c76fa47c99c70917b6db2e9215844f0b9dc64",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 200
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q25",
+        "tx": "0x0fe3e84707b7f75b8fb850352839f4d50be2fd3ba0dcbfa42afddb44d0f144c5",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128082378,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x9912d22ab4f1856fb3571c6c68f2571904ace4b9",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 627
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q06",
+        "tx": "0x58c0a4760ec86f670a4c5e5757599658c952a0ac7e9bb570f2050745089d9ad8",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128082433,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x9912d22ab4f1856fb3571c6c68f2571904ace4b9",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 278
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 14,
+        "kind": "quick task Q17",
+        "tx": "0x6f8d07c641005c7b2b82a0b39822610089acafad9effc8fd4e68bde5c0b5e475",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 127603750,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xd1cada310f73455a2b119fa49aa8b682bfff9f7d",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 74
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 14,
+        "kind": "quick task Q16",
+        "tx": "0x406c6c8ee923bab5d8f9a3e281cd66c1107284c9768e44c0220da383bbbadd6e",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 127603781,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xd1cada310f73455a2b119fa49aa8b682bfff9f7d",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 319
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 14,
+        "kind": "quick task Q11",
+        "tx": "0x00f9420002f7f437c9042723e6b98032f262d5ea2541ec0e9b127789fa42e1b6",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127603848,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x781eb433ff788705080254c6f510df16d37b0c44",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 466
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 14,
+        "kind": "quick task Q18",
+        "tx": "0x537243c1364af00124a24bf5cf0961f56dfebc61a967225905745b3281738ae8",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127603911,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x781eb433ff788705080254c6f510df16d37b0c44",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 196
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 14,
+        "kind": "quick task Q16",
+        "tx": "0x316af80fe6582db00387876fc21bd016c1dd5845c2ea129f5fb999661fd809f1",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 127603943,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x781eb433ff788705080254c6f510df16d37b0c44",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 2149
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 15,
+        "kind": "quick task Q17",
+        "tx": "0xbd27cd7500c2b0563109868c77986f6c2a43a953a0cc31c57e07373de813ed5f",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 127793233,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x781eb433ff788705080254c6f510df16d37b0c44",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 548
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 14,
+        "kind": "quick task Q25",
+        "tx": "0x733cde8cea9f15994caee4ecfaf6c8a8408990d393d48b6c9c7002cdaa2605f7",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127634145,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x8785fa9111aa458117f766831fae5bdcaa6ae427",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 258
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 14,
+        "kind": "quick task Q25",
+        "tx": "0x5d46b1b70d8f72e0c474723e51aedea547bd702f5f557d627a27b5835be29a84",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127634155,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xa1e397bd64189092198d0b4301a4d17550c28dc6",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 318
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q23",
+        "tx": "0xce0433879da0c30c50da6b4a0e1a457fde3f45083a5149c25654469399878efa",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128226296,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xfdf05af8ddce3621f01713e01721d6e9ad702ea8",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 176
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q25",
+        "tx": "0x9ccf8cb1d7eea474dddc10d609c567051eff6cca041ee271e5b5062b4673fd72",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128226360,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xfdf05af8ddce3621f01713e01721d6e9ad702ea8",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 260
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 14,
+        "kind": "quick task Q08",
+        "tx": "0xdfa3b7204824dfd5d1c53b2d65a03d820e9a7b98398080b8e2aa1ff6f6027b47",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127666114,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x78b732d473a723db37f4c72713d5b98a345e77c1",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 158
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 14,
+        "kind": "quick task Q25",
+        "tx": "0x815987f96c193d0e0f772051c9fbccb5b01b20447ebc50ca59278077e4353e95",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127674438,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x24a29c98a5a18058b8989cea7f942c586dceeea6",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 478
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 15,
+        "kind": "quick task Q06",
+        "tx": "0x903b00f76c9cad7f4a96ac6122757501c9586d9fcc7e6f5e723ea29e8baf9757",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 127793467,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xba567fea152c93b38513a44e1da3cbbee7f3b1dd",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 545
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 15,
+        "kind": "quick task Q25",
+        "tx": "0xa4a47081e4442b606e66a16cd4d11a249f90d794eee19e726be65530faf6495c",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 127793563,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xba567fea152c93b38513a44e1da3cbbee7f3b1dd",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 1251
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q25",
+        "tx": "0xa18f69e43dc9bb059b2035c99dc90b226f6e6750b06038dc27a5f4f479ea3d02",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128082388,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xc3b4f10bc4c4a64676b398ebbe23b29440dca40c",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 1515
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q16",
+        "tx": "0xc93945ec243a98c9c719d9611b9a0aa47e7386d3a0dd9590e028c5b5bfb33230",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128090277,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xc3b4f10bc4c4a64676b398ebbe23b29440dca40c",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 138
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q11",
+        "tx": "0x823ec0acbb63ee8a4afc1ad4ba6c417aecb2cabc82ce923aa26ce1b57499dde6",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128176685,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xc3b4f10bc4c4a64676b398ebbe23b29440dca40c",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 269
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q17",
+        "tx": "0x9354bffb16e88f0393de449a7646d8ac062a207403ef1d75241fa7380107d7dd",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128176697,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xc3b4f10bc4c4a64676b398ebbe23b29440dca40c",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 566
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q06",
+        "tx": "0x0e0c2c6ee82a9fa7b3c56e20809ef0aac74cfe4d3f2516d67244b991c28d7dc0",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128177500,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xc3b4f10bc4c4a64676b398ebbe23b29440dca40c",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 339
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q25",
+        "tx": "0xdf0920f8b7b2beddbdfd5f4e73fa17bdfba976df5b6753ce6dc7923a9f2882a7",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128082400,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x1becfb9e7cfc39667f8608909f3013c4bdbbfc92",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 194
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q06",
+        "tx": "0x77a28b0364c43ebb16978e8a362da36f587a0a35e3ab71d21211947c76f91c61",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128082410,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xa21fc88bd8c17cae306089d7b00a1f5cd5ad3ee9",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 920
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q11",
+        "tx": "0xc4e249d19feeaa836b17e1e996d189a8ed5c85a5f4611781274bfdc4f6e381bf",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128082421,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xa21fc88bd8c17cae306089d7b00a1f5cd5ad3ee9",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 1232
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q16",
+        "tx": "0xb793607975bef21f67e1cb9f275ad5a0b695fe778cbbccd0149c6a4afc81a376",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128105335,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xa21fc88bd8c17cae306089d7b00a1f5cd5ad3ee9",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 3232
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q18",
+        "tx": "0xe0608383c240850a0ed8e4e190ecf8eac8443c7d5958dbd6550739152d50972f",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128176674,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xa21fc88bd8c17cae306089d7b00a1f5cd5ad3ee9",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 151
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q25",
+        "tx": "0x510b3dcc09e7c737a011db048485c6d7506dfc817307b3a8149cebf0c425d4d7",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128177558,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xa21fc88bd8c17cae306089d7b00a1f5cd5ad3ee9",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 1391
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q17",
+        "tx": "0x65106c68b3d6f95e6b70223706991293a8b4c9764716e7c871916fdd0be18066",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128082442,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xe470b44461cf8028a84369012f9de4aad32bfa9e",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 602
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q17",
+        "tx": "0x9356927f87a5a8bbfaf9100aed97786eed6551904e72851f6fdb246d52ab2175",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128082453,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x98d6768508a36c04d8a60e5e5b24ac3d628f5350",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 348
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q25",
+        "tx": "0x3d1a53f4f998670238bbacda3bc61b51667344f8838cadb525d33ddccebd2e61",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128090267,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x8532ff85f7d16a869945d8abb52893d73d2118ef",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 190
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q08",
+        "tx": "0x3dbc845d612bdd97f6d25f54e4e6d3894bafbc51fe4f5c4cb1276cca040f65b9",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128105345,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xa31be3a1ac1dde980db8d18d32e7cd9ab557360a",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 164
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 16,
+        "kind": "quick task Q11",
+        "tx": "0xc4fc14f7cfaa4dd2ed79317c4320d5924329d7a8eb6ee5908c674217b740b9ab",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128105357,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xa31be3a1ac1dde980db8d18d32e7cd9ab557360a",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 308
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q06",
+        "tx": "0x30323f57efc57932cca45c0a1f4baad4012fe4e34b025f77b539b18530025e75",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128177476,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x1ecf3736eb1a7a2f71980cc520da592bf0124a16",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 316
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q17",
+        "tx": "0xca920f2c5712c8fe0d2b8c32a61a1c11e8849efa006123d359a3e7204c015329",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128186260,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x1ecf3736eb1a7a2f71980cc520da592bf0124a16",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 634
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q06",
+        "tx": "0x42ec9967ec0ba13a8be510ae53f1afb3354657199d57114e7f195cd85371db4e",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128177488,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x9067e71d30cf136f767ae4fd1ea0517314ac0982",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 227
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q31",
+        "tx": "0x670b78f807c672e98b31b5a920a55f45ea02ad8ef25388b2cb0886a9da9b4587",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128192920,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x9067e71d30cf136f767ae4fd1ea0517314ac0982",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 299
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q16",
+        "tx": "0xa822157cc00bb49e2bd72fd48b2d71930970ee67cef049564c6388c3957e0d55",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128202684,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x9067e71d30cf136f767ae4fd1ea0517314ac0982",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 750
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "custom taskmarket_Q25",
+        "tx": "0x081b781c0297e9d43fda4b90479ac114eb964110f94ad34cbd73dfaad59f6c71",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128187003,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xfa36ba58ecc3512b5a9c124631171a19c27c4fc6",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 367
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "custom taskmarket_Q25",
+        "tx": "0x8b87513d96f668f5cbf4d54c231d313774e7859d8a4b817070909fa945e98db4",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128187019,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x3d32270e076c998c1bd4c57b5c4798c5c270b22e",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 497
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q31",
+        "tx": "0x2773283b473f46c31dd6e0a163645fe43ee1d6afcdd7342a5b270d4fd6e2a99f",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128202673,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xcf4cac88df345bf16b550ca02fe4e1d1b27860d3",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 291
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q08",
+        "tx": "0x540d5c2251264e3ec78d5b1a28ee337662d20bf847f283bd345194e50aeb7f00",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128217943,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xcf4cac88df345bf16b550ca02fe4e1d1b27860d3",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 287
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q11",
+        "tx": "0xb4ec14f66140129a1737fe2a43941f1341e8dd308736d2953afd730677839eaa",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128217954,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xcf4cac88df345bf16b550ca02fe4e1d1b27860d3",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 843
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "custom dail_Q25",
+        "tx": "0x19d357335d65ddaf06a0f3ba5fc445b4aa9f06353d82028177a44b7315224cd5",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128205153,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x226ea74d26e2aa98973dc35ffe7e66fa2e3b2588",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 593
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "custom dail_Q23",
+        "tx": "0x30a00020dbafd221e4a9289ed0b1c70d6ce85ca74821d19b48b8bce9010fdb1b",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128205220,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x226ea74d26e2aa98973dc35ffe7e66fa2e3b2588",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 293
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q11",
+        "tx": "0xc343bde3c0a5ffb78792031d2afaf4c224d1d119992fe7b412bba12ce62b2b29",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128210146,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xd9080cca2800bc8b09bfb90104d4c40d2cb1bdcb",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 168
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q17",
+        "tx": "0x0168bedbbcbdd63a36663b7d0c0ac249a37599c3d9d648dd02ed562b318e318e",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128210178,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x6c1a1dcf255333e98d0a0ea55adac1b6caf0a72a",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 206
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q31",
+        "tx": "0x9c8985d734c22f7986072f7f8655e38e24fbf0d0d4a1f99968346597977c36b0",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128217931,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xc8799d53f301c4917a1e6d863057734d9a848e84",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 851
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q17",
+        "tx": "0x744279c2af53570f712786d3cd80a8ce2f15b1e75231c8fe7fffbbfc44b85fe8",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128257352,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xc8799d53f301c4917a1e6d863057734d9a848e84",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 312
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q16",
+        "tx": "0xe3cd2014181ae5b6059b805c81ed1dd5e95924e8fd8018111017d9cc96a5b8ba",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128257388,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xc8799d53f301c4917a1e6d863057734d9a848e84",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 207
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q17",
+        "tx": "0x2033554a0cbb6d239958e7c035e412ff4d0fb4a4689bfef05f2b29670899d854",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128281854,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0x2ae18c3b2fc18545edd35beeaef97cc2ed908a02",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 316
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q06",
+        "tx": "0x440fc856341c220fe345eefecb73193e09c7b9a52a99f224391f468dfeb1442d",
+        "sponsorDeclaredAmountFLAPJAX": "500000",
+        "blockNumber": 128289574,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xe8797a6bb4693674d78e933e85cb159a0219d03b",
+            "rawAmount": 500000000000000000000000,
+            "amountFLAPJAX": "500000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 349
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      },
+      {
+        "day": 17,
+        "kind": "quick task Q31",
+        "tx": "0xa7319022e5bfd215604e03febc96b912507622c9e65386f127814d965e87ab67",
+        "sponsorDeclaredAmountFLAPJAX": "250000",
+        "blockNumber": 128298241,
+        "receiptStatus": "success",
+        "treasuryTransfers": [
+          {
+            "to": "0xe8797a6bb4693674d78e933e85cb159a0219d03b",
+            "rawAmount": 250000000000000000000000,
+            "amountFLAPJAX": "250000",
+            "from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+            "logIndex": 256
+          }
+        ],
+        "declaredMatchesAllTreasuryTransfers": true
+      }
+    ],
+    "recipientChecks": [
+      {
+        "address": "0x078293f144c61d1e02b49d4cd3f33c283eb7dc73",
+        "QxxPayoutsTotal": "750000",
+        "onchainBalanceAtSnapshot": "1000000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x1becfb9e7cfc39667f8608909f3013c4bdbbfc92",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x1ecf3736eb1a7a2f71980cc520da592bf0124a16",
+        "QxxPayoutsTotal": "1000000",
+        "onchainBalanceAtSnapshot": "2600000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x226ea74d26e2aa98973dc35ffe7e66fa2e3b2588",
+        "QxxPayoutsTotal": "500000",
+        "onchainBalanceAtSnapshot": "2100000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x24a29c98a5a18058b8989cea7f942c586dceeea6",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x2ae18c3b2fc18545edd35beeaef97cc2ed908a02",
+        "QxxPayoutsTotal": "500000",
+        "onchainBalanceAtSnapshot": "2750000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x3d32270e076c998c1bd4c57b5c4798c5c270b22e",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x3d650013f46dd2d96b5afefe4acab7a7f2727561",
+        "QxxPayoutsTotal": "750000",
+        "onchainBalanceAtSnapshot": "750000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x3d98800c64c345950e1eaaa076d88c12d1bf5f37",
+        "QxxPayoutsTotal": "1350000",
+        "onchainBalanceAtSnapshot": "1350000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x4a6419ee9666acaa6755fc0aebb27f48743c1e1e",
+        "QxxPayoutsTotal": "1250000",
+        "onchainBalanceAtSnapshot": "2500000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x5c7a79549e4413a52b1787b5c7e10368720d2358",
+        "QxxPayoutsTotal": "500000",
+        "onchainBalanceAtSnapshot": "2600000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x6c1a1dcf255333e98d0a0ea55adac1b6caf0a72a",
+        "QxxPayoutsTotal": "500000",
+        "onchainBalanceAtSnapshot": "500000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x781eb433ff788705080254c6f510df16d37b0c44",
+        "QxxPayoutsTotal": "1500000",
+        "onchainBalanceAtSnapshot": "0",
+        "stillHoldsAtLeastCumulativeNumericPayout": false
+      },
+      {
+        "address": "0x78b732d473a723db37f4c72713d5b98a345e77c1",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x8532ff85f7d16a869945d8abb52893d73d2118ef",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x8785fa9111aa458117f766831fae5bdcaa6ae427",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x8c062dc5d775b7d5efc168f75a875f392f53dcdf",
+        "QxxPayoutsTotal": "2350000",
+        "onchainBalanceAtSnapshot": "29930000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x9067e71d30cf136f767ae4fd1ea0517314ac0982",
+        "QxxPayoutsTotal": "1250000",
+        "onchainBalanceAtSnapshot": "1550000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x98d6768508a36c04d8a60e5e5b24ac3d628f5350",
+        "QxxPayoutsTotal": "500000",
+        "onchainBalanceAtSnapshot": "500000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0x9912d22ab4f1856fb3571c6c68f2571904ace4b9",
+        "QxxPayoutsTotal": "750000",
+        "onchainBalanceAtSnapshot": "1000000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xa1e397bd64189092198d0b4301a4d17550c28dc6",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xa21fc88bd8c17cae306089d7b00a1f5cd5ad3ee9",
+        "QxxPayoutsTotal": "1750000",
+        "onchainBalanceAtSnapshot": "2450000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xa31be3a1ac1dde980db8d18d32e7cd9ab557360a",
+        "QxxPayoutsTotal": "500000",
+        "onchainBalanceAtSnapshot": "1500000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xb6c06eb1a3f1a1ef155a2b48ea6b4f84e9c128f7",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xba567fea152c93b38513a44e1da3cbbee7f3b1dd",
+        "QxxPayoutsTotal": "750000",
+        "onchainBalanceAtSnapshot": "750000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xc3b4f10bc4c4a64676b398ebbe23b29440dca40c",
+        "QxxPayoutsTotal": "2000000",
+        "onchainBalanceAtSnapshot": "5750000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xc8799d53f301c4917a1e6d863057734d9a848e84",
+        "QxxPayoutsTotal": "1250000",
+        "onchainBalanceAtSnapshot": "2250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xcf4cac88df345bf16b550ca02fe4e1d1b27860d3",
+        "QxxPayoutsTotal": "750000",
+        "onchainBalanceAtSnapshot": "3000000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xcfa08d418f136cc2a14c791fcf7e37b30d237592",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xd07c76fa47c99c70917b6db2e9215844f0b9dc64",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xd1cada310f73455a2b119fa49aa8b682bfff9f7d",
+        "QxxPayoutsTotal": "1000000",
+        "onchainBalanceAtSnapshot": "0",
+        "stillHoldsAtLeastCumulativeNumericPayout": false
+      },
+      {
+        "address": "0xd9080cca2800bc8b09bfb90104d4c40d2cb1bdcb",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xe470b44461cf8028a84369012f9de4aad32bfa9e",
+        "QxxPayoutsTotal": "500000",
+        "onchainBalanceAtSnapshot": "500000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xe8797a6bb4693674d78e933e85cb159a0219d03b",
+        "QxxPayoutsTotal": "750000",
+        "onchainBalanceAtSnapshot": "2000000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xfa36ba58ecc3512b5a9c124631171a19c27c4fc6",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xfdf05af8ddce3621f01713e01721d6e9ad702ea8",
+        "QxxPayoutsTotal": "500000",
+        "onchainBalanceAtSnapshot": "600000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      },
+      {
+        "address": "0xfebeb3682f672d620e1ce2ffeb2743fde20f4778",
+        "QxxPayoutsTotal": "250000",
+        "onchainBalanceAtSnapshot": "250000",
+        "stillHoldsAtLeastCumulativeNumericPayout": true
+      }
+    ]
+  },
+  "treasuryBuybacksVsPayoutsClaim": {
+    "statement": "treasury only receives buybacks and sends bounties, never sells to pool",
+    "verifiedSubset": "All listed Q-series payout transaction receipts decoded. Existing prior Q25 verified Oct11-13 direct treasury-to-pool logs absent in 123 complete ranges 126900000..127500000, separate historical limited evidence.",
+    "definitiveAllHistoryClaimVerified": false,
+    "note": "No comprehensive mint-to-snapshot treasury token Transfer-log replay in this report. Do not mark all-time claim confirmed, or assert no sells globally."
+  },
+  "sourceDiscrepancies": [],
+  "sourceReproducible": true,
+  "no_wallet_secrets_or_signatures_or_funds": true,
+  "payerBuyerRewardActuallyReceivedToVM5": "0 VERIFIED",
+  "noTaskmarketSubmissionPerformed": true
+}
